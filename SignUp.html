@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BEKA CONSULTANCY</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="RealEstate.css">
+    <script type="text/javascript" src="SignUp.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<style type="text/css">
+
+.button{
+    border-radius: 20%;
+}
+.button1{
+    border-radius: 20%;
+    width: 100%;
+    display: inline;
+}
+.button:hover {
+    background-color: #595959; /* black */
+    color: #ffffff;
+</style>
+
+
+<body>
+<nav class="nav navbar-fixed-top navbar-inverse navbar-header bg-1">
+	<div class="container">
+		 <a class="navbar-brand" href="#"><img src="pictures/th.jpg" width="100px" height="50px" style="float: left;">BEKA CONSULTANCY</a>
+      <ul class="nav navbar-nav navbar-right navpills">
+			<a href="RealEstate.html">Home</a>
+			<a href="About_Us.html">About_Us</a>
+			<a href="Services.html">Services</a>
+			<a href="News_&_Insight.html">News_&_Insight</a>
+		</ul>
+	
+</nav><br><br>
+
+<div class="container form-control form-responsive" id="f1">
+	<form class="form-group">
+<div class="form-group has-info">
+    <label>Username:
+    <input class="form-control button1 button" type="text" name="Username" placeholder="Enter your Username, Email or Phone Number">
+    </label>
+    <label>Password:
+    <input class="form-control button" type="password" name="Password" placeholder="Enter your Password" id="myInput">
+    </label>
+    <!-- An element to toggle between password visibility -->
+<input type="checkbox" onclick="myFunction()">Show Password
+    <button class="btn btn-info button">Log In<span class="glyphicon glyphicon-log-in"></span></button><br>
+    <a href="SignUp.html"></a>
+	</div>
+</form>
+
+<button data-toggle="collapse" data-target="#demo" class="form-control"><h6>Create a new account</h6></button>
+
+<div id="demo" class="collapse">
+<fieldset>
+    <legend style="background-color: #ffffff;">Register</legend>
+    <div id="SignUp" class="container">
+        <form class="form-group has-info" style="background-color: #ffffff;">
+<div class="form-group has-info">
+    <div><label>First Name:<input class="form-control button" type="text" name="Username" placeholder="First Name"></label></div>
+    <div><label>Second Name:<input class="form-control button" type="text" name="Username" placeholder="Second Name"></label></div>
+    <div><label>email:<input class="form-control button" type="text" name="Email" placeholder="Email Address"></label></div>
+    <div><label>Password:<input class="form-control button" type="password" name="Password" placeholder="Enter your Password"></label></div>
+    <div><label>Confirm Password:<input class="form-control button" type="password" name="Password" placeholder="ReEnter your Password"></label></div>
+    <label>Date of Birth</label><br>
+   
+    <select size="1" class="button">
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+    </select>
+            <select size="1" class="button">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+    </select> 
+   
+    <select size="1" class="button">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+    </select><br>
+    <button class="btn btn-info button" type="Submit" name="Submit">Submit</button><br>
+    <a href="SignUp.html">Already have an account</a>
+    </form>
+    </div>
+    </div>
+</fieldset>
+</div>
+
+</body>
+</html>
